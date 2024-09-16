@@ -3,7 +3,6 @@ return {
   lazy = false,
   config = function ()
     require("auto-save").setup({
-      enabled = true,
       events = {'InsertLeave', 'TextChanged'}
     })
   end,
