@@ -20,7 +20,7 @@ return {
         "eslint-lsp",
         "pylsp",
         "tsserver",
-        "ast-grep",
+        "tailwindcss-language-server",
       },
     },
   },
