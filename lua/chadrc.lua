@@ -5,7 +5,7 @@
 local M = {}
 
 M.base46 = {
-  theme = "tokyodark",
+  theme = "catppuccin",
 
   -- hl_override = {
   -- 	Comment = { italic = true },
@@ -17,19 +17,40 @@ M.nvdash = {
   load_on_startup = true,
 
   header = {
-      "                            ",
-      "     ▄▄         ▄ ▄▄▄▄▄▄▄   ",
-      "   ▄▀███▄     ▄██ █████▀    ",
-      "   ██▄▀███▄   ███           ",
-      "   ███  ▀███▄ ███           ",
-      "   ███    ▀██ ███           ",
-      "   ███      ▀ ███           ",
-      "   ▀██ █████▄▀█▀▄██████▄    ",
-      "     ▀ ▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀   ",
-      "                            ",
-      "     Powered By neovim     ",
-      "                            ",
-    },
+    "                            ",
+    "     ▄▄         ▄ ▄▄▄▄▄▄▄   ",
+    "   ▄▀███▄     ▄██ █████▀    ",
+    "   ██▄▀███▄   ███           ",
+    "   ███  ▀███▄ ███           ",
+    "   ███    ▀██ ███           ",
+    "   ███      ▀ ███           ",
+    "   ▀██ █████▄▀█▀▄██████▄    ",
+    "     ▀ ▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀   ",
+    "                            ",
+    "     Powered By neovim     ",
+    "                            ",
+  },
+}
+
+M.ui = {
+
+  telescope = {
+    style = "bordered",
+  },
+  statusline = {
+    theme = "minimal",
+  },
+}
+
+M.mason = {
+  pkgs = {
+    "html-lsp",
+    "css-lsp",
+    "python-lsp-server",
+    "tailwindcss-language-server",
+    "eslint-lsp",
+    "tailwindcss-language-server",
+  },
 }
 
 return M
