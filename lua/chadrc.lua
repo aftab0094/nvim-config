@@ -5,7 +5,7 @@
 local M = {}
 
 M.base46 = {
-  theme = "catppuccin",
+  theme = "tokyodark",
 
   -- hl_override = {
   -- 	Comment = { italic = true },
@@ -34,6 +34,11 @@ M.nvdash = {
 
 M.ui = {
 
+  cmp = {
+    format_colors = {
+      tailwind = true
+    }
+  },
   telescope = {
     style = "bordered",
   },
